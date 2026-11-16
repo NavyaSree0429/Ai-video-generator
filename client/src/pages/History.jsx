@@ -1,0 +1,31 @@
+import React from 'react';
+import { History as HistoryIcon } from 'lucide-react';
+
+const History = () => {
+  return (
+    <div className="p-8 max-w-6xl mx-auto space-y-6">
+      <div className="flex items-center justify-between pb-4 border-b border-slate-800">
+        <div>
+          <h2 className="text-2xl font-bold text-white flex items-center gap-2">
+            <HistoryIcon className="w-6 h-6 text-purple-400" />
+            Publishing History
+          </h2>
+          <p className="text-xs text-slate-400">
+            Track published, scheduled, and failed Instagram posts
+          </p>
+        </div>
+      </div>
+
+      <div className="p-12 rounded-2xl bg-slate-900/60 border border-slate-800 text-center space-y-3">
+        <HistoryIcon className="w-10 h-10 text-slate-500 mx-auto" />
+        <h3 className="text-lg font-semibold text-white">No Publishing History</h3>
+        <p className="text-xs text-slate-400 max-w-md mx-auto">
+          Completed and scheduled posts will appear here with Instagram post links and analytics.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default History;
+

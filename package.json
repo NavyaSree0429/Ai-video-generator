@@ -1,0 +1,16 @@
+{
+  "name": "ai-video-studio-workspace",
+  "version": "1.0.0",
+  "description": "AI Video Studio & Instagram Auto Publisher — Root Workspace",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client"
+  },
+  "keywords": ["ai-video-generator", "instagram-publisher", "mern"],
+  "author": "",
+  "license": "ISC"
+}
+
